@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SharePointPnPCore2016" Version="3.0.1808" />
+    <PackageReference Include="Microsoft.SharePoint2016.CSOM" Version="16.0.4351.1000" />
+  </ItemGroup>
 </Project>
